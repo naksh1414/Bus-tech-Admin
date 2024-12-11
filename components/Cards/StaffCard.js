@@ -2,9 +2,18 @@ import React from "react";
 import PropTypes from "prop-types";
 import PageChange from "components/PageChange/PageChange";
 // components
-
-import TableDropdown from "components/Dropdowns/TableDropdown.js";
-const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
+import AddStaffModal from "components/Modals/AddStaff";
+import { useState } from "react";
+import StaffDropDown from "components/Dropdowns/StaffDropDown";
+const StaffCard = ({
+  color = "light",
+  staff,
+  isLoading,
+  error,
+  icon,
+  onStaffAdded,
+}) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   if (isLoading)
     return (
       <div className="w-full p-4 text-center">
@@ -27,15 +36,21 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
       >
         <div className="rounded-t mb-0 px-4 py-3 border-0">
           <div className="flex flex-wrap items-center">
-            <div className="relative w-full px-4 max-w-full flex-grow flex-1">
+            <div className="relative flex justify-between w-full px-4 max-w-full flex-grow flex-1">
               <h3
                 className={
                   "font-semibold text-lg " +
                   (color === "light" ? "text-blueGray-700" : "text-white")
                 }
               >
-                All Buses
+                All Staff
               </h3>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="bg-emerald-500 text-white rounded-md px-4 py-1"
+              >
+                Add Staff
+              </button>
             </div>
           </div>
         </div>
@@ -52,7 +67,7 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Bus Numbers
+                  Staff Name
                 </th>
                 <th
                   className={
@@ -62,7 +77,7 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Capacity
+                  Role
                 </th>
                 <th
                   className={
@@ -74,16 +89,6 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
                 >
                   Status
                 </th>
-                {/* <th
-                  className={
-                    "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
-                    (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
-                  }
-                >
-                  Users
-                </th> */}
                 <th
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
@@ -92,7 +97,27 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Current Occupancy
+                  Email
+                </th>
+                <th
+                  className={
+                    "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                    (color === "light"
+                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                  }
+                >
+                  Assigned Bus
+                </th>
+                <th
+                  className={
+                    "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                    (color === "light"
+                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                  }
+                >
+                  Contact Number
                 </th>
                 <th
                   className={
@@ -105,8 +130,8 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
               </tr>
             </thead>
             <tbody>
-              {buses?.map((bus) => (
-                <tr key={bus._id}>
+              {staff?.staff?.map((s) => (
+                <tr key={s._id}>
                   <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left">
                     <div className="flex items-center">
                       {/* <img
@@ -115,64 +140,76 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
                         alt="Bus"
                       /> */}
                       {icon}
-                      <span className="ml-3 font-bold">{bus.busNumber}</span>
+                      <span className="ml-3 font-bold">{s.name}</span>
                     </div>
                   </td>
                   <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                    {bus.capacity}
+                    {s.role}
+                  </td>
+                  <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                    {s.status}
                   </td>
                   <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                     <span
                       className={`px-2 py-1 rounded ${
-                        bus.status === "AVAILABLE"
+                        s.status === "AVAILABLE"
                           ? "bg-green-200 text-green-800"
                           : "bg-yellow-200 text-yellow-800"
                       }`}
                     >
-                      {bus.status}
+                      {s.email}
+                    </span>
+                  </td>
+                  <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                    <span
+                      className={`px-2 py-1 rounded ${
+                        s.status === "AVAILABLE"
+                          ? "bg-green-200 text-green-800"
+                          : "bg-yellow-200 text-yellow-800"
+                      }`}
+                    >
+                      {s.assignedBusId || "UNASSIGNED"}
                     </span>
                   </td>
                   <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                     <div className="flex items-center">
-                      <span className="mr-2">
-                        {Math.round(
-                          (bus.currentOccupancy / bus.capacity) * 100
-                        )}
-                        %
-                      </span>
+                      <span className="mr-2">{s.contactNumber}</span>
                       <div className="relative w-full">
                         <div className="overflow-hidden h-2 text-xs flex rounded bg-blue-200">
-                          <div
-                            style={{
-                              width: `${
-                                (bus.currentOccupancy / bus.capacity) * 100
-                              }%`,
-                            }}
-                            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
-                          ></div>
+                          <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"></div>
                         </div>
                       </div>
                     </div>
                   </td>
-                  <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
-                    <TableDropdown />
+                  <td className="border-t-0 absolute inset-0 px-6 border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+                    <StaffDropDown
+                      assignedBusId={s.assignedBusId}
+                      staffId={s._id}
+                    />
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+        <AddStaffModal
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+          onSuccess={() => {
+            if (onStaffAdded) onStaffAdded();
+          }}
+        />
       </div>
     </>
   );
 };
 
-export default CardTable;
+export default StaffCard;
 
-CardTable.defaultProps = {
+StaffCard.defaultProps = {
   color: "light",
 };
 
-CardTable.propTypes = {
+StaffCard.propTypes = {
   color: PropTypes.oneOf(["light", "dark"]),
 };

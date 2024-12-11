@@ -1,7 +1,5 @@
 import React from "react";
-
 // components
-
 import CardStats from "components/Cards/CardStats.js";
 
 export default function HeaderStats() {
@@ -39,14 +37,14 @@ export default function HeaderStats() {
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
-                  statSubtitle="SALES"
-                  statTitle="924"
-                  statArrow="down"
-                  statPercent="1.10"
-                  statPercentColor="text-orange-500"
+                  statSubtitle="Buses"
+                  statTitle="8"
+                  statArrow="up"
+                  statPercent="5.10"
+                  statPercentColor="text-emerald-500"
                   statDescripiron="Since yesterday"
-                  statIconName="fas fa-users"
-                  statIconColor="bg-pink-500"
+                  statIconName="fas fa-bus"
+                  statIconColor="bg-emerald-500"
                 />
               </div>
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">

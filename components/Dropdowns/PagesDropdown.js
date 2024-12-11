@@ -44,44 +44,44 @@ const PagesDropdown = () => {
           Admin Layout
         </span>
         <Link href="/admin/dashboard">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Dashboard
-          </a>
+          </p>
         </Link>
         <Link href="/admin/settings">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Settings
-          </a>
+          </p>
         </Link>
         <Link href="/admin/tables">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Tables
-          </a>
+          </p>
         </Link>
         <Link href="/admin/maps">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Maps
-          </a>
+          </p>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
@@ -92,24 +92,24 @@ const PagesDropdown = () => {
           Auth Layout
         </span>
         <Link href="/auth/login">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Login
-          </a>
+          </p>
         </Link>
         <Link href="/auth/register">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Register
-          </a>
+          </p>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
         <span
@@ -120,24 +120,24 @@ const PagesDropdown = () => {
           No Layout
         </span>
         <Link href="/landing">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Landing
-          </a>
+          </p>
         </Link>
         <Link href="/profile">
-          <a
+          <p
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
             Profile
-          </a>
+          </p>
         </Link>
       </div>
     </>
