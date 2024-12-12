@@ -22,7 +22,7 @@ export default function Bus() {
       };
 
       const response = await axios.get(
-        "http://localhost:3030/api/buses/all",
+        "https://ql9ww8rp-8080.inc1.devtunnels.ms/api/buses/all",
         config
       );
 

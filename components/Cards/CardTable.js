@@ -72,7 +72,7 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Status
+                 Occupancy Status
                 </th>
                 {/* <th
                   className={
@@ -92,7 +92,7 @@ const CardTable = ({ color = "light", buses, isLoading, error, icon }) => {
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Current Occupancy
+                  Current Occupancy %
                 </th>
                 <th
                   className={

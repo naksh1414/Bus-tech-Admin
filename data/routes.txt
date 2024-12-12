@@ -1,0 +1,20 @@
+740,Anand Vihar ISBT -> Uttam Nagar Terminal,Delhi Transport Corporation
+740A,Anand Vihar ISBT -> Manglapuri,Delhi Transport Corporation
+534,Anand Vihar ISBT -> Mehrauli,Delhi Transport Corporation
+534A,Anand Vihar ISBT -> IGI Airport,Delhi Transport Corporation
+85,Anand Vihar ISBT → Punjabi Bagh Terminal,Delhi Transport Corporation
+764,Najafgarh Sai Baba Mandir → Nehru Place,Delhi Transport Corporation
+620,Shivaji Stadium -> Hauz Khas Metro Station,Delhi Transport Corporation
+507,Dhaula Kuan -> Okhla Extension,Delhi Transport Corporation
+511A,Badarpur Border -> Dhaula Kuan,Delhi Transport Corporation
+448,Punjabi Bagh Terminal -> Hamdard Nagar,Delhi Transport Corporation
+423,Mori Gate Terminal -> Ambedkar Nagar Terminal,Delhi Transport Corporation
+419,Old Delhi Railway Station -> Ambedkar Nagar Terminal,Delhi Transport Corporation
+522,Ambedkar Nagar Terminal -> Indrapuri,Delhi Transport Corporation
+544,Badarpur Border -> RK Puram Sector 1,Delhi Transport Corporation
+567,Kamaruddin Nagar,Delhi Transport Corporation
+543,Anand Vihar ISBT,Delhi Transport Corporation
+611,Dhaula Kuan -> Mayur Vihar Phase 3,Delhi Transport Corporation
+615,Minto Road → Poorvanchal Hostel,Delhi Transport Corporation
+721,Kashmere Gate ISBT => Manglapuri Terminal,Delhi Transport Corporation
+236,Anand Vihar ISBT -> Nangloi JJ Colony,Delhi Transport Corporation

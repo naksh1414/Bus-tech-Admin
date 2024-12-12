@@ -1,0 +1,681 @@
+id,name,operator
+6633074,740: Anand Vihar ISBT -> Uttam Nagar Terminal,Unknown Operator
+6633896,740: Uttam Nagar Terminal -> Anand Vihar ISBT,Unknown Operator
+6634343,85: Anand Vihar ISBT → Punjabi Bagh Terminal,Unknown Operator
+6634344,534: Anand Vihar ISBT -> Mehrauli,Unknown Operator
+6634345,534: Mehrauli -> Anand Vihar ISBT,Unknown Operator
+6634347,85EXT: West Enclave → Anand Vihar ISBT,Unknown Operator
+6634348,85EXT: Anand Vihar ISBT -> West Enclave,Unknown Operator
+6634349,534A: Anand Vihar ISBT -> IGI Airport,Unknown Operator
+6634350,534A: IGI Airport -> Anand Vihar ISBT,Unknown Operator
+6634351,740A: Manglapuri -> Anand Vihar ISBT,Unknown Operator
+6634352,740A: Anand Vihar ISBT -> Manglapuri,Unknown Operator
+6634353,740Extra: Anand Vihar ISBT => Uttam Nagar Terminal,Unknown Operator
+6634354,740Extra: Uttam Nagar Terminal => Anand Vihar ISBT,Unknown Operator
+6639422,85: Punjabi Bagh Terminal → Anand Vihar ISBT,DTC
+6642987,73: Hari Nagar Clock Tower → Anand Vihar ISBT,Unknown Operator
+6642988,73: Anand Vihar ISBT → Hari Nagar Clock Tower,Unknown Operator
+7457580,IITD Route 1,IIT Delhi
+7460411,764: Najafgarh Sai Baba Mandir → Nehru Place,Delhi Transport Corporation
+7460412,620: Shivaji Stadium -> Hauz Khas Metro Station,Delhi Transport Corporation
+7481308,Unnamed Route,Unknown Operator
+7599189,Unnamed Route,Delhi Transport Corporation
+7611273,765,Delhi Transport Corporation
+7611274,750,Delhi Transport Corporation
+7611275,644,Delhi Transport Corporation
+7611276,507: Dhaula Kuan -> Okhla Extension,Delhi Transport Corporation
+7611277,OMS EXP.,Delhi Transport Corporation
+7611278,764EXT: Najafgarh Sai Baba Mandir =>,Delhi Transport Corporation
+7611279,548EXT,Delhi Transport Corporation
+7611280,548CL,Delhi Transport Corporation
+7611282,542 (1),Delhi Transport Corporation
+7611283,520,Delhi Transport Corporation
+7611284,512: Ambedkar Nagar Terminal -> RK Puram Sector 1,Delhi Transport Corporation
+7611285,511A: Badarpur Border -> Dhaula Kuan,Delhi Transport Corporation
+7611286,511: Badarpur Border ->,Delhi Transport Corporation
+7611287,465,Delhi Transport Corporation
+7611288,448CL,Delhi Transport Corporation
+7611289,448B,Delhi Transport Corporation
+7611290,448: Punjabi Bagh Terminal -> Hamdard Nagar,Delhi Transport Corporation
+7611291,335 (2),Delhi Transport Corporation
+7611292,548: Minto Road Terminal -> Hamdard Nagar Terminal,Delhi Transport Corporation
+7611293,520,Delhi Transport Corporation
+7611294,512: Rama Krishna Puram Sector 1 => Ambedkar Nagar Terminal,Delhi Transport Corporation
+7611295,503,Delhi Transport Corporation
+7916286,764: Nehru Place -> Najafgarh Sai Baba Mandir,Delhi Transport Corporation
+7917858,890: Kendriya Terminal,Delhi Transport Corporation
+7917859,793: H-3 Vikas Puri Terminal -> Delhi Secretariat (Rajhghat Power House),Delhi Transport Corporation
+7917860,783 (2),Delhi Transport Corporation
+7917861,720: Janakpuri B-1 Terminal -> Shahdara,Delhi Transport Corporation
+7917862,641 (2),Delhi Transport Corporation
+7917863,630 (2),Delhi Transport Corporation
+7917864,890: Hastsal Village LIG Flats,Delhi Transport Corporation
+7917865,793: Delhi Secretariat (Rajghat Power House) -> H-3 Vikas Puri Terminal,Delhi Transport Corporation
+7917866,783 (1),Delhi Transport Corporation
+7917867,720: Shahdara -> Janakpuri B-1 Terminal,Delhi Transport Corporation
+7917868,641 (1),Delhi Transport Corporation
+7917869,630 (1),Delhi Transport Corporation
+7917870,604: Lado Sarai Terminal -> New Delhi Railway Station Gate Number 2,Unknown Operator
+7917871,620: Hauz Khas Metro Station -> Shivaji Stadium,Delhi Transport Corporation
+7917872,604: New Delhi Railway Station Gate Number 2 -> Lado Sarai Terminal,Unknown Operator
+7917873,535 (2),Unknown Operator
+7917874,535 (1),Unknown Operator
+7918161,RL-79: Dwarka Sector 23 -> New Delhi Railway Station Gate #2,Unknown Operator
+7918162,RL-77: Manglapuri Terminal -> New Delhi Railway Station Gate Number 2,Unknown Operator
+7918163,(-) Gr. Mudrika: Uttam Nagar Terminal => Anand Vihar ISBT,Unknown Operator
+7918164,790: Kapashera Border => Najafgarh Terminal,Unknown Operator
+7918165,773 (2),Unknown Operator
+7918166,771 (2),Unknown Operator
+7918167,770A: Delhi Secretariat,Unknown Operator
+7918168,760 (2),Unknown Operator
+7918169,752 (2),Unknown Operator
+7918170,740EXT: Uttam Nagar Terminal -> Anand Vihar ISBT,Unknown Operator
+7918171,729: Kapashera Border → Kashmere Gate,Unknown Operator
+7918172,723: Manglapuri Terminal => Anand Vihar ISBT,Unknown Operator
+7918173,722 (2),Unknown Operator
+7918174,716 (2),Unknown Operator
+7918175,706 (2),Unknown Operator
+7918176,704 (2),Unknown Operator
+7918177,703 (2),Unknown Operator
+7918178,072 (2),Unknown Operator
+7918179,077 (2),Unknown Operator
+7918180,(+) Gr. Mudrika: => Uttam Nagar Terminal,Unknown Operator
+7918181,RL-79: New Delhi Railway Station Gate #2 -> Dwarka Sector 23,Unknown Operator
+7918182,RL-77: New Delhi Railway Station Gate Number 2 -> Manglapuri Terminal,Unknown Operator
+7918183,790: Najafgarh Terminal => Kapashera Border,Unknown Operator
+7918184,773 (1),Unknown Operator
+7918185,771 (1),Unknown Operator
+7918186,770: Delhi Secretariat =>,Unknown Operator
+7918187,760 (1),Unknown Operator
+7918188,752 (1),Unknown Operator
+7918189,740EXT: Anand Vihar ISBT -> Uttam Nagar Terminal,Unknown Operator
+7918190,729: Kashmere Gate → Kapashera Border,Unknown Operator
+7918191,723: Anand Vihar ISBT -> Manglapuri Terminal,Unknown Operator
+7918192,722 (1),Unknown Operator
+7918193,716 (1),Unknown Operator
+7918194,706 (1),Unknown Operator
+7918195,704 (1),Unknown Operator
+7918196,703 (1),Unknown Operator
+7918197,077 (1),Unknown Operator
+7918198,072 (1),Unknown Operator
+7918840,781: New Delhi Railway Station Gate Number 2 => Dwarka Sector 16C,Unknown Operator
+7918841,680: Kendriya Terminal -> Ambedkar Nagar Sector 4,Unknown Operator
+7918842,660 (1),Unknown Operator
+7918843,602 (1),Unknown Operator
+7919368,GL-83 (1),Unknown Operator
+7919369,864 (1),Unknown Operator
+7919370,780: New Delhi Railway Station Gate Number 2 => Indira Gandhi International Airport T2,Unknown Operator
+7919371,737 (1),Unknown Operator
+7919372,711EXT (1),Unknown Operator
+7919373,711: Sarai Kale Khan ISBT => Uttam Nagar Terminal,Unknown Operator
+7919374,561 (1),Unknown Operator
+7919675,745 (1),Unknown Operator
+7919676,719 (1),Unknown Operator
+7919677,621: Mori Gate -> Poorvanchal Hostel,Unknown Operator
+7919678,66 (1),Unknown Operator
+7919780,578: Najafgarh → Safdarjung Terminal,Unknown Operator
+7919806,336 (1),Delhi Transport Corporation
+7920414,725: Indrapuri Krishi Kunj =>,Unknown Operator
+7920415,536 (1),Unknown Operator
+7920416,523: Dhaula Kuan → Bhati Mines,Unknown Operator
+7920417,533 (1),Unknown Operator
+7920418,519: Safdarjung Terminal -> Mandi Gaon,Unknown Operator
+7920419,517: => Aaya Nagar,Unknown Operator
+7920420,516: Safdarjung Terminal -> Dera Gaon,Unknown Operator
+7920421,509 (1),Unknown Operator
+7920422,506 (1),Unknown Operator
+7920423,502: Old Delhi Railway Station -> Mehrauli Terminal,Unknown Operator
+7920424,501 (1),Unknown Operator
+7920491,Gurgaon - S.J. Terminal (2),Unknown Operator
+7920492,886 (2),Unknown Operator
+7920493,717: Badarpur Border -> Shahbad Mohammadpur,Unknown Operator
+7920494,715: Dwarka Sector 2 Bus Depot -> Mehrauli,Delhi Transport Corporation
+7920495,714 (2),Unknown Operator
+7920496,539: -> Mehrauli Terminal,Unknown Operator
+7920497,536 (2),Unknown Operator
+7920498,525 (2),Unknown Operator
+7920499,523: Bhati Mines → Dhaula Kuan,Unknown Operator
+7920500,519: Mandi Gaon → Safdarjung Terminal,Unknown Operator
+7920501,517: Aaya Nagar =>,Unknown Operator
+7920502,516: Dera Gaon -> Safdarjung Terminal,Unknown Operator
+7920503,506 (2),Unknown Operator
+7920504,463: Kalkaji Depot -> Mehrauli Terminal,Unknown Operator
+7920505,427: Nizamuddin Railway Station -> Mehrauli Terminal,Unknown Operator
+7920506,34: Noida Sector 37 -> Mehrauli,Unknown Operator
+7921434,994 (2),Delhi Transport Corporation
+7921435,970: Jawaharlal Nehru Stadium -> Avantika,Delhi Transport Corporation
+7921436,940 (2),Delhi Transport Corporation
+7921437,930 (2),Delhi Transport Corporation
+7921438,920 (2),Delhi Transport Corporation
+7921439,910 (2),Delhi Transport Corporation
+7921440,880 (2),Delhi Transport Corporation
+7921441,858 (2),Delhi Transport Corporation
+7921442,820 (2),Delhi Transport Corporation
+7921443,725: => Indrapuri Krishi Kunj,Unknown Operator
+7921444,680: Ambedkar Nagar Sector 4 -> Kendriya Terminal,Unknown Operator
+7921445,616 (2),Unknown Operator
+7921447,580: Ambedkar Nagar Sector 4 => Kendriya Terminal,Unknown Operator
+7921448,558 (2),Unknown Operator
+7921449,540: Tara Apartment -> Kendriya Terminal,Unknown Operator
+7921450,481 (2),Unknown Operator
+7921451,480: Kendriya Terminal -> DDA Flats Kalkaji,Unknown Operator
+7921452,470 (2),Unknown Operator
+7921453,430 (1),Unknown Operator
+7921454,410: Jal Vihar Terminal -> Khyala JJ Colony,Unknown Operator
+7921455,408E: Raghubir Nagar,Unknown Operator
+7921456,391: Kendriya Terminal -> Kalyanpuri,Unknown Operator
+7921457,390: Kendriya Terminal -> Trilokpuri 13 Block,Unknown Operator
+7921458,381 (2),Unknown Operator
+7921459,380 (2),Unknown Operator
+7921460,378: Kendriya Terminal -> Mayur Vihar Phase 3,Unknown Operator
+7921461,370 (2),Unknown Operator
+7921462,349: Kendriya Terminal -> Mayur Vihar Phase 2,Unknown Operator
+7921463,342 (2),Unknown Operator
+7921464,340 (2),Unknown Operator
+7921465,320: Kendriya Terminal -> Shahdara Terminal,Unknown Operator
+7921466,310: Indrapuri (Krishi Kunj) -> Jheel Terminal,Unknown Operator
+7921467,300 (2),Unknown Operator
+7921468,280 (2),Unknown Operator
+7921469,270,Unknown Operator
+7921470,265 (2),Unknown Operator
+7921471,260 (2),Unknown Operator
+7921472,220 (2),Unknown Operator
+7921473,210: Kendriya Terminal =>,Unknown Operator
+7921474,196 (2),Unknown Operator
+7921475,188 (2),Unknown Operator
+7921476,185: Kendriya Terminal =>,Unknown Operator
+7921477,120 (2),Unknown Operator
+7921478,047 (2),Unknown Operator
+7921479,016 (2),Unknown Operator
+7921520,100EXT,Unknown Operator
+7921521,100: Adarsh Nagar,Unknown Operator
+7921522,091 (2),Unknown Operator
+7921523,010 (2),Unknown Operator
+7921524,100EXT: Kendriya Terminal,Unknown Operator
+7921525,100: Kendriya Terminal,Unknown Operator
+7921526,091 (1),Unknown Operator
+7921527,010 (1),Unknown Operator
+7922641,EXPRESS (2),Delhi Transport Corporation
+7922642,703A (2),Unknown Operator
+7928455,419: Ambedkar Nagar Terminal -> Old Delhi Railway Station,Unknown Operator
+7928456,490 (1),Unknown Operator
+7928457,425A (1),Unknown Operator
+7928458,727: Jawaharlal Nehru Stadium => Dwarka Mor Metro Station,Unknown Operator
+7928459,445: New Delhi Railway Station → Hamdard Nagar Terminal,Unknown Operator
+7928460,430 (2),Unknown Operator
+7928461,425: Old Delhi Railway Station -> Hamdard Nagar,Unknown Operator
+7928462,423: Mori Gate Terminal -> Ambedkar Nagar Terminal,Unknown Operator
+7928463,419A (1),Unknown Operator
+7928464,419: Old Delhi Railway Station -> Ambedkar Nagar Terminal,Unknown Operator
+7928465,404EXT (1),Unknown Operator
+7928466,404 (1),Unknown Operator
+7928467,374: Nand Nagri Terminal => Nehru Place Terminal,Unknown Operator
+7929053,724: Nehru Place Terminal => Uttam Nagar Terminal,Unknown Operator
+7929054,544: Badarpur Border -> RK Puram Sector 1,Unknown Operator
+7929055,522: Ambedkar Nagar Terminal -> Indrapuri (Krishi Kunj),Unknown Operator
+7929056,522SPL: -> New Delhi Railway Station Gate Number 2,Unknown Operator
+7929057,521: Karampura Terminal -> Ambedkar Nagar Sector 4,Unknown Operator
+7929058,490 (2),Unknown Operator
+7929059,423: Ambedkar Nagar Terminal -> Mori Gate Terminal,Unknown Operator
+7930953,629 (1),Unknown Operator
+7930954,546 (1),Unknown Operator
+7931500,680EXT (1),Delhi Transport Corporation
+7931502,611: Dhaula Kuan -> Mayur Vihar Phase 3,Delhi Transport Corporation
+7931503,601 (1),Delhi Transport Corporation
+7931504,511A: Dhaula Kuan → Badarpur Border,Delhi Transport Corporation
+7931505,448A: Punjabi Bagh Terminal -> Hamdard Nagar,Delhi Transport Corporation
+7931506,865 (1),Unknown Operator
+7931508,545 (1),Unknown Operator
+7931509,865 (2),Unknown Operator
+7931510,864 (2),Unknown Operator
+7931511,711: Uttam Nagar Terminal => Sarai Kale Khan ISBT,Unknown Operator
+7931512,680Extra: => Dhaula Kuan,Unknown Operator
+7931514,511: -> Badarpur Border,Delhi Transport Corporation
+7931515,Outer Mudrika Service (2),Unknown Operator
+7931516,745 (2),Unknown Operator
+7931517,727A (2),Unknown Operator
+7931519,727: Dwarka Mor Metro Station => Jawaharlal Nehru Stadium,Unknown Operator
+7931520,719 (2),Unknown Operator
+7931521,621: Poorvanchal Hostel -> Mori Gate,Delhi Transport Corporation
+7931522,545 (2),Unknown Operator
+7931523,F-414: => Malai Mandir,Unknown Operator
+7931524,727A (1),Unknown Operator
+7931525,66 (2),Unknown Operator
+7944207,F-404: Moolchand Metro Station => Devli Gaon,Unknown Operator
+7944208,724C (1),Unknown Operator
+7944209,580: Kendriya Terminal => Ambedkar Nagar Sector 4,Unknown Operator
+7944210,544: RK Puram Sector 1 -> Badarpur Border,Unknown Operator
+7944211,522SPL: New Delhi Railway Station Gate Number 2 ->,Unknown Operator
+7944212,522: Indrapuri (Krishi Kunj) -> Ambedkar Nagar Terminal,Unknown Operator
+7944213,521: Ambedkar Nagar Sector 4 -> Karampura Terminal,Unknown Operator
+7948117,055 (1),Delhi Transport Corporation
+7948118,611EXT (2),Delhi Transport Corporation
+7948119,611: Mayur Vihar Phase 3 → Dhaula Kuan,Delhi Transport Corporation
+7948120,567: => Kamaruddin Nagar,Delhi Transport Corporation
+7948121,543EXT (1),Delhi Transport Corporation
+7948122,543: Anand Vihar ISBT →,Delhi Transport Corporation
+7948123,542 (2),Delhi Transport Corporation
+7948124,518 (1),Delhi Transport Corporation
+7948125,507A (1),Delhi Transport Corporation
+7948126,507: Okhla Extension -> Dhaula Kuan,Delhi Transport Corporation
+7948127,480: DDA Flats Kalkaji -> Kendriya Terminal,Unknown Operator
+7948128,479: Badarpur Border -> Punjabi Bagh,Unknown Operator
+7948129,469: Ambedkar Nagar Terminal -> Anand Vihar ISBT,Unknown Operator
+7948130,451 (1),Unknown Operator
+7948131,450: Jal Vihar Terminal -> Anand Parvat,Unknown Operator
+7948132,433: Badarpur Border -> New Delhi Railway Station Gate Number 2,Unknown Operator
+7948133,416 (1),Unknown Operator
+7948134,414 (2),Unknown Operator
+7948135,413: Nizamuddin Railway Station -> Mehrauli Terminal,Unknown Operator
+7948136,400: Abul Fazl Enclave -> Minto Road Terminal,Unknown Operator
+7948137,392EXT (1),Unknown Operator
+7948139,Bus 47 (1),Unknown Operator
+7948140,MS (+),Unknown Operator
+7948141,(+) Teevra Mudrika Service: Punjabi Bagh Terminal,Unknown Operator
+7948142,055 (2),Delhi Transport Corporation
+7948143,754 (2),Unknown Operator
+7948144,567: Kamaruddin Nagar =>,Delhi Transport Corporation
+7948145,543: -> Anand Vihar ISBT,Delhi Transport Corporation
+7948146,479: Punjabi Bagh -> Badarpur Border,Unknown Operator
+7948147,460: Minto Road Terminal -> Badarpur Border,Unknown Operator
+7948148,451 (2),Unknown Operator
+7948149,450: Anand Parvat -> Jal Vihar Terminal,Unknown Operator
+7948150,437 (2),Unknown Operator
+7948152,415 (2),Unknown Operator
+7948153,413: Mehrauli Terminal -> Nizamuddin Railway Station,Unknown Operator
+7948154,411: -> Hamdard Nagar,Unknown Operator
+7948155,408 (1),Unknown Operator
+7948156,400: Minto Road Terminal -> Abul Fazl Enclave,Unknown Operator
+7948157,392EXT (2),Unknown Operator
+7948158,323: Dhaula Kuan → Noida Sector 62,Unknown Operator
+7948159,48 (2),Unknown Operator
+7948160,Bus 47 (2),Unknown Operator
+7948161,MS (-),Unknown Operator
+7948162,(-) Teevra Mudrika Service: Punjabi Bagh Terminal,Unknown Operator
+7948163,416 (2),Unknown Operator
+7948164,414 (1),Unknown Operator
+7948841,724A (1),Unknown Operator
+7948842,467 (1),Unknown Operator
+7948843,460A (1),Unknown Operator
+7948844,433A-STL (1),Unknown Operator
+7948845,398 (1),Unknown Operator
+7948847,Bus 47A-STL (1),Unknown Operator
+7950907,47A: Indrapuri -> Central Workshop 2,Unknown Operator
+7950908,398EXP: => Mayur Vihar Phase 3,Unknown Operator
+7950909,543A: Kapashera Border -> Anand Vihar ISBT,Delhi Transport Corporation
+7950910,611EXT (1),Delhi Transport Corporation
+7950911,543EXT (2),Delhi Transport Corporation
+7950912,518: Hazrat Nizamuddin Railway Station,Delhi Transport Corporation
+7950913,507A (2),Delhi Transport Corporation
+7964843,493: Mayur Vihar Phase 3 -> Mehrauli,Unknown Operator
+7964844,067 (1),Delhi Transport Corporation
+7964845,043 (1),Delhi Transport Corporation
+7964846,541 (1),Unknown Operator
+7964847,514 (2),Delhi Transport Corporation
+7964848,491 (2),Unknown Operator
+7964849,067 (2),Delhi Transport Corporation
+7964850,043 (2),Delhi Transport Corporation
+7964851,541 (2),Delhi Transport Corporation
+7964852,540: Kendriya Terminal -> Tara Apartment,Unknown Operator
+7964853,514 (2),Delhi Transport Corporation
+7964854,491 (1),Delhi Transport Corporation
+7964855,481 (1),Unknown Operator
+7964856,427: Mehrauli Terminal -> Nizamuddin Railway Station,Unknown Operator
+7964857,417 (2),Delhi Transport Corporation
+7965739,440: New Delhi Railway Station Gate Number 2 -> Ambedkar Nagar Terminal,Unknown Operator
+7965741,554A: => Rama Krishna Puram Sector 1,Unknown Operator
+7965742,774: Badarpur Border -> Dwarka Sector 10 Metro Station,Unknown Operator
+7965743,567A: => Mubarakpur Dabas,Delhi Transport Corporation
+7965744,874: Badarpur Border -> Uttam Nagar Terminal,Unknown Operator
+7965745,529 (2),Unknown Operator
+7965746,375 (2),Unknown Operator
+7965747,374: Nehru Place Terminal => Nand Nagri Terminal,Unknown Operator
+7965748,442: Nehru Place => Azadpur Metro Station,Unknown Operator
+7965749,449 (2),Unknown Operator
+7965750,447 (2),Unknown Operator
+7965751,445: Hamdard Nagar Terminal -> New Delhi Railway Station,Unknown Operator
+7965752,440: Ambedkar Nagar Terminal -> New Delhi Railway Station Gate Number 2,Unknown Operator
+7965753,435 (2),Unknown Operator
+7965754,425: Hamdard Nagar -> Old Delhi Railway Station,Unknown Operator
+8011647,765 (2),Delhi Transport Corporation
+8011648,615B,Delhi Transport Corporation
+8011649,615A,Delhi Transport Corporation
+8011650,507EXT (2),Delhi Transport Corporation
+8011651,448B (2),Delhi Transport Corporation
+8011652,448A: Hamdard Nagar -> Punjabi Bagh Terminal,Delhi Transport Corporation
+8011653,764EXT: => Najafgarh Sai Baba Mandir,Delhi Transport Corporation
+8011654,629: -> Vasant Vihar CPWD Colony,Unknown Operator
+8011655,623B: => Vasant Vihar CPWD Colony,Unknown Operator
+8011656,615: Minto Road → Poorvanchal Hostel,Delhi Transport Corporation
+8013622,051 (1),Delhi Transport Corporation
+8013623,618 (1),Delhi Transport Corporation
+8013624,615: Poorvanchal Hostel → Minto Road,Delhi Transport Corporation
+8013625,546 (2),Unknown Operator
+8013626,538 (1),Unknown Operator
+8014347,522A: Hamdard Nagar → Indrapuri,Unknown Operator
+8014348,548: Hamdard Nagar Terminal -> Minto Road Terminal,Delhi Transport Corporation
+8014349,Gurgaon-Noida (1),Unknown Operator
+8014350,BPG: Gurgaon -> Badarpur,Unknown Operator
+8014351,717A: Kapashera Border -> Badarpur Border,Unknown Operator
+8014352,717: Shahbad Mohammadpur -> Badarpur Border,Unknown Operator
+8014353,714 (1),Unknown Operator
+8014354,525 (1),Unknown Operator
+8014355,463: Mehrauli Terminal -> Kalkaji Depot,Unknown Operator
+8014356,34EXT,Unknown Operator
+8014357,34: Mehrauli -> Noida Sector 37,Unknown Operator
+8028855,448: Hamdard Nagar -> Punjabi Bagh Terminal,Delhi Transport Corporation
+8034706,894A (1),Unknown Operator
+8034707,459 (1),Unknown Operator
+8034708,99 (1),Unknown Operator
+8034709,504 (1),Unknown Operator
+8034710,458 (1),Unknown Operator
+8034711,457 (1),Unknown Operator
+8034712,454 (1),Unknown Operator
+8034713,453 (1),Unknown Operator
+8034714,447 (1),Unknown Operator
+8034715,438 (1),Unknown Operator
+8034716,436 (1),Unknown Operator
+8034717,429: Old Delhi Railway Station -> DDA Flats Kalkaji,Unknown Operator
+8034718,426 (1),Unknown Operator
+8034720,409 (1),Unknown Operator
+8034721,405: Old Delhi Railway Station → Badarpur Border,Unknown Operator
+8034722,403: Old Delhi Railway Station → Okhla Extension,Unknown Operator
+8034723,402: ? → Okhla Extension,Unknown Operator
+8034724,274 (1),Unknown Operator
+8034725,101 (1),Unknown Operator
+8034726,94 (1),Unknown Operator
+8034727,482 (1),Unknown Operator
+8034728,449 (1),Unknown Operator
+8034729,424 (1),Unknown Operator
+8034730,446 (1),Unknown Operator
+8034731,462 (1),Unknown Operator
+8035117,429: DDA Flats Kalkaji -> Old Delhi Railway Station,Unknown Operator
+8035118,418A: Badarpur Border -> Shahadra Terminal,Delhi Transit
+8035119,405: Badarpur Border → Old Delhi Railway Station,Unknown Operator
+8035120,457STL: => Sunehri Pula Depot,Unknown Operator
+8035121,405A: Old Delhi Railway Station → Badarpur Border,Unknown Operator
+8035122,405STL: => Sunehri Pula Depot,Unknown Operator
+8050584,410: Khyala JJ Colony -> Jal Vihar Terminal,Unknown Operator
+8050585,47A: Central Workshop 2 -> Indrapuri,Unknown Operator
+8050586,375: => Nehru Place,Unknown Operator
+8050587,433STL: => Seva Nagar Crossing,Unknown Operator
+8050588,623A: => Anand Vihar ISBT,Unknown Operator
+8050589,522A: Indrapuri => Hamdard Nagar,Unknown Operator
+8055717,990E: => Shivaji Stadium,Unknown Operator
+8055718,894: Karampura -> Okhla,Unknown Operator
+8055719,894: Okhla -> Karampura,Unknown Operator
+8061931,525EX: =>Mehrauli Terminal,Unknown Operator
+8061932,34A: Mayur Vihar 3 → Lado Sarai,Unknown Operator
+8062453,(+) Outer Mudrika Service: Uttam Nagar Terminal,Unknown Operator
+8062454,717A: Badarpur Border -> Kapashera Border,Unknown Operator
+8063463,442: Azadpur Metro Station => Nehru Place,Unknown Operator
+8067300,970: Avantika -> Jawaharlal Nehru Stadium,Unknown Operator
+8073980,578: Safdarjung Terminal → Najafgarh,Unknown Operator
+8073981,336 (2),Delhi Transport Corporation
+8073982,774: Dwarka Sector 10 Metro Station => Badarpur Border,Unknown Operator
+8077071,445A: New Delhi Railway Station Gate Number 2 -> Hamdard Nagar,Unknown Operator
+8079874,724: Uttam Nagar Terminal => Nehru Place Terminal,Unknown Operator
+8082254,(-) Outer Mudrika Service: Uttam Nagar Terminal,Unknown Operator
+8092549,743: Dwarka Sector 21 Metro Station -> Lajpat Nagar,Unknown Operator
+8092550,743: Lajpat Nagar -> Dwarka Sector 21 Metro Station,Unknown Operator
+8123124,210: => Kendriya Terminal,Unknown Operator
+8123125,419Extra,Unknown Operator
+8123126,717B: IGI Airport T-2 -> Badarpur Border,Unknown Operator
+8123127,493: Mehrauli -> Mayur Vihar Phase 3,Unknown Operator
+8126650,740B: ? -> Bindapur Terminal,Unknown Operator
+8126651,391: Kalyanpuri -> Kendriya Terminal,Unknown Operator
+8126652,355: => Anand Parvat,Unknown Operator
+8126653,405A: Badarpur Border → Old Delhi Railway Station,Unknown Operator
+8135254,502: Mehrauli Terminal -> Old Delhi Railway Station,Unknown Operator
+8188441,34A: Lado Sarai → Mayur Vihar 3,Unknown Operator
+8188442,717B: Badarpur Border -> IGI Airport T-2,Unknown Operator
+8189779,469: Anand Vihar ISBT -> Ambedkar Nagar Terminal,Unknown Operator
+8195973,460: Badarpur Border -> Minto Road Terminal,Unknown Operator
+8195974,605: Safdarjung Hospital => Vasant Kunj C-9,Unknown Operator
+8197603,729B: => Airport T-3,Unknown Operator
+8197604,185: => Kendriya Terminal,Unknown Operator
+8197605,181A: Jahangirpuri E-Block -> Nizamuddin Railway Station,Delhi Transport Corporation
+8197606,RL-77B: => Madhu Vihar,Unknown Operator
+8202257,781: Dwarka Sector 16C => New Delhi Railway Station Gate Number 2,Unknown Operator
+8202258,780: Indira Gandhi International Airport T2 => New Delhi Railway Station Gate Number 2,Unknown Operator
+8202259,181A: Nizamuddin Railway Station -> Jahangirpuri E-Block,Delhi Transport Corporation
+8206274,543B: IGI Airport -> Anand Vihar ISBT,Delhi Transport Corporation
+8208910,803: => Madhu Vihar,Unknown Operator
+8208911,440A: => Minto Road,Unknown Operator
+8208912,310: Jheel Terminal -> Indrapuri (Krishi Kunj),Unknown Operator
+8221531,8: Noida Sector 32 => Badarpur Border,Unknown Operator
+8221532,8: Badarpur Border => Noida Sector 32,Unknown Operator
+8222917,944: Sultanpuri => Kendriya Terminal,Unknown Operator
+8222918,944: Kendriya Terminal => Sultanpuri,Unknown Operator
+8222919,810: Kendriya Terminal => Uttam Nagar,Unknown Operator
+8222920,810: Uttam Nagar => Kendriya Terminal,Unknown Operator
+8222921,390: Mayur Vihar Phase 3 => Kendriya Terminal,Unknown Operator
+8229055,Gurgaon → Anand Vihar ISBT,Unknown Operator
+8234263,344: ? -> Kalyanpuri,Delhi Transport Corporation
+8235171,624A: Munirka -> Anand Vihar ISBT,Unknown Operator
+8238140,770: => Delhi Secretariat,Unknown Operator
+8238141,349: Mayur Vihar Phase 2 -> Kendriya Terminal,Unknown Operator
+8238142,378: Mayur Vihar Phase 3 -> Kendriya Terminal,Unknown Operator
+8238143,403: Okhla Extension → Old Delhi Railway Station,Unknown Operator
+8250861,874: Uttam Nagar Terminal -> Badarpur Border,Unknown Operator
+8250862,392: Dhaula Kuan → Noida Sector 62,Unknown Operator
+8250863,Anand Vihar ISBT → Gurgaon,Unknown Operator
+8250864,724Extra: => Uttam Nagar,Delhi Transport Corporation
+8250865,984: -> Avantika,Delhi Transport Corporation
+8250866,588: => Uttam Nagar,Delhi Transport Corporation
+8250867,569: => Sultanpuri,Delhi Transport Corporation
+8250868,543A: Anand Vihar ISBT -> Kapashera Border,Delhi Transport Corporation
+8253430,492: Nehru Place -> Noida Sector 62,Unknown Operator
+8253431,576A: => Mubarakpur,Delhi Transport Corporation
+8255865,966: Nizamuddin Railway Station => Nangloi,Delhi Transport Corporation
+8255866,794: Nizamuddin Railway Station -> Manglapuri,Delhi Transport Corporation
+8255867,966: Nangloi => Nizamuddin Railway Station,Delhi Transport Corporation
+8255868,794: Manglapuri -> Nizamuddin Railway Station,Delhi Transport Corporation
+8264758,764: Najafgarh Sai Baba Mandir → Nehru Place,Delhi Transport Corporation
+8267620,429STL: => Seva Nagar Crossing,Unknown Operator
+8267621,479STL: => Seva Nagar Crossing,Unknown Operator
+8267622,8A: ? -> Nehru Place,Unknown Operator
+8267623,236: Anand Vihar ISBT -> Nangloi JJ Colony,Delhi Transport Corporation
+8286645,473: Anand Vihar ISBT -> Badarpur Border,Unknown Operator
+8286646,473: Badarpur Border -> Anand Vihar ISBT,Unknown Operator
+8321465,BPG: Badarpur -> Gurgaon,Unknown Operator
+8406346,479A: Badarpur Border -> Wazirpur,Unknown Operator
+8406347,422: Badarpur Border => Kashmere Gate ISBT,Unknown Operator
+8406348,F-403A: Nehru Place -> Badarpur Border,Unknown Operator
+8406758,540A: Tara Apartment -> Safdarjung Terminal,Unknown Operator
+8413553,DS-3: => Dwarka Sector 19 Pocket 2,Unknown Operator
+8414534,F-839A: Kapashera Border -> Uttam Nagar,Unknown Operator
+8414535,F-839A: Uttam Nagar -> Kapashera Border,Unknown Operator
+8414536,F-701: Dhaula Kuan -> Kapashera Border,Unknown Operator
+8414537,F-701: Kapashera Border -> Dhaula Kuan,Unknown Operator
+8414538,718: Uttam Nagar Terminal => Kapashera Border,Unknown Operator
+8414539,718: Kapashera Border => Uttam Nagar Terminal,Unknown Operator
+8414540,850: Kendriya Terminal => Najafgarh Sai Baba Mandir,Delhi Transport Corporation
+8414541,850: Najafgarh Sai Baba Mandir => Kendriya Terminal,Delhi Transport Corporation
+8415555,540A: Safdarjung Terminal → Tara Apartment,Unknown Operator
+8418592,605: Vasant Kunj C-9 => Safdarjung Hospital,Unknown Operator
+8418593,505: Mehrauli -> Kamla Market,Delhi Transport Corporation
+8433669,(-) Yamuna Mudrika Service: Mori Gate Terminal,Unknown Operator
+8456948,Karol Bagh → Gurgaon,Delhi Transport Corporation
+8460859,323: Noida Sector 62 → Dhaula Kuan,Delhi Transport Corporation
+8464887,OC Bus 55: Santa Ana - Newport Beach,Orange County Transportation Authority
+8464889,553 - Anaheim to Costa Mesa,Orange County Transportation Authority
+8464890,OC Bus 53: Anaheim - Irvine,Orange County Transportation Authority
+8465987,OC Bus 72,Orange County Transportation Authority
+8467886,721: Kashmere Gate ISBT => Manglapuri Terminal,Delhi Transport Corporation
+8468273,OC Bus 463: Santa Ana Regional Transportation Intermodal Center - Hutton Centre (Discontinued),Orange County Transportation Authority
+9297046,234: Harsh Vihar,Unknown Operator
+9297930,(+) Teevra Mudrika Service: Lajpat Nagar,Unknown Operator
+9297931,(-) Teevra Mudrika Service: Lajpat Nagar,Unknown Operator
+9306318,729: Mori Gate Terminal → Kapashera Border,Unknown Operator
+9306319,405: Mori Gate Terminal → Badarpur Border,Unknown Operator
+9306320,729: Kapashera Border → Mori Gate Terminal,Unknown Operator
+9306321,405: Badarpur Border → Mori Gate Terminal,Unknown Operator
+9306322,221: Mori Gate Terminal -> Anand Vihar ISBT,Unknown Operator
+9306323,211: Mori Gate Terminal → Mayur Vihar Phase 3,Unknown Operator
+9436071,212: Nand Nagari Terminal → Anand Parvat,Unknown Operator
+9436072,212: Anand Parvat → Nand Nagari Terminal,Unknown Operator
+9444906,410A: Subhash Nagar Crossing -> Jal Vihar Terminal,Unknown Operator
+9444907,410A: Jal Vihar Terminal → Subhash Nagar Crossing,Unknown Operator
+9455279,311A: Ambedkar Nagar Terminal -> Anand Vihar ISBT,Unknown Operator
+9455280,311A: Anand Vihar ISBT → Ambedkar Nagar Terminal,Unknown Operator
+9497268,543B: Anand Vihar ISBT → IGI Airport,Delhi Transport Corporation
+9581809,740EX: Uttam Nagar Terminal → Anand Vihar ISBT,Unknown Operator
+9581810,740EX: Anand Vihar ISBT → Uttam Nagar Terminal,Unknown Operator
+9600215,Unnamed Route,Unknown Operator
+9600216,Unnamed Route,Unknown Operator
+9600217,Unnamed Route,DTC
+9600218,Unnamed Route,Delhi Transport Corporation
+9600219,Unnamed Route,Delhi Transport Corporation
+9600220,Unnamed Route,Delhi Transport Corporation
+9600221,418A: Shahdara -> Badarpur Border,Delhi Transit
+9600222,623: Shahdara Terminal -> Vasant Vihar CPWD,Delhi Transport Corporation
+9600223,221: Anand Vihar ISBT -> Mori Gate Terminal,Delhi Transport Corporation
+9600341,443: Shahdara -> Badarpur Border,Delhi Transport Corporation
+9600342,246: Seemapuri => Shivaji Stadium,Delhi Transport Corporation
+9600420,33: Bhajanpur => Noida Sector 37,Delhi Transport Corporation
+9603177,319A: Shahdara Terminal -> Noida Sector 37,Delhi Transport Corporation
+9603178,319: Shahdara -> Noida Sector 32,Delhi Transport Corporation
+9603179,214: Seemapuri => Kamla Market,Delhi Transport Corporation
+9603180,221A: Mori Gate -> Jhilmil Colony,Delhi Transport Corporation
+9603181,214A: Anand Parbat => Seema Puri,Delhi Transport Corporation
+9603182,214CL: Ajmeri Gate => Dilshad Garden Depot,Delhi Transport Corporation
+9603184,236CL: Anand Vihar ISBT => Kamruddin Nagar,Delhi Transport Corporation
+9603185,236Extn. : Anand Vihar ISBT => Savda Ghevra JJ Colony,Delhi Transport Corporation
+9603186,246CL: Shivaji Stadium => Dilshad Garden Depot,Delhi Transit
+9603219,273: Shivaji Stadium => Indira Puri Loni Border,Delhi Transport Corporation
+9603220,317: Shivaji Stadium => Shahdara,Delhi Transport Corporation
+9603221,418Ext: Shahdara=> Kushak Nallah Depot,Delhi Transit
+9621986,341: Anand Vihar ISBT <=>Holambi Kalan JJ Colony,Delhi Transport Corporation
+9621987,623CL: Shahdara <=> C.P.W.D. Colony Vasant Vihar,Delhi Transport Corporation
+9621989,623B: Shahdara <=>Vasant Kunj C-9,Delhi Transport Corporation
+9621990,623EXT: Shahdara <=> C.P.W.D. Colony Vasant Vihar,Delhi Transport Corporation
+9649616,492: Noida Sector 62 -> Nehru Place,Unknown Operator
+10103223,ML-82: Badarpur Border -> Mehrauli Terminal,Unknown Operator
+10103224,ML-82: Mehrauli Terminal -> Badarpur Border,Unknown Operator
+10103570,984A: Avantika ->,Delhi Transport Corporation
+10103571,984A: -> Avantika,Delhi Transport Corporation
+10115146,624A: Anand Vihar ISBT -> Munirka,Unknown Operator
+10115147,307: Kamla Market -> Trilokpuri 27 Block,Unknown Operator
+10115148,307: Trilokpuri 27 Block -> Kamla Market,Unknown Operator
+10115149,118EXT: Mori Gate -> Mayur Vihar Phase 3,Unknown Operator
+10115150,118EXT: Mayur Vihar Phase 3 -> Mori Gate,Unknown Operator
+10143374,348: Mayur Vihar Phase 3 -> Mori Gate,Unknown Operator
+10143375,348: Mori Gate -> Mayur Vihar Phase 3,Unknown Operator
+10143376,336A: New Seemapuri -> ?,Delhi Transport Corporation
+10143377,336A: ? -> New Seemapuri,Delhi Transport Corporation
+10143378,309: Anand Parvat -> Kalyanpuri,Unknown Operator
+10143379,309: Kalyanpuri -> Anand Parvat,Unknown Operator
+10143380,8A: Nehru Place -> ?,Unknown Operator
+10143381,Unnamed Route,Unknown Operator
+10143382,Unnamed Route,Unknown Operator
+10164598,971: Anand Vihar ISBT -> Avantika,Delhi Transport Corporation
+10164599,236: Nangloi JJ Colony -> Anand Vihar ISBT,Delhi Transport Corporation
+10164600,165A: Anand Vihar ISBT -> Shahbad Dairy,Unknown Operator
+10164601,GL-23: Anand Vihar ISBT -> Kashmiri Gate,Unknown Operator
+10164603,165: Anand Vihar ISBT -> Shahbad Dairy,Unknown Operator
+10220581,344: Kalyanpuri -> ?,Delhi Transport Corporation
+10220582,89 (2),Delhi Transport Corporation
+10220583,89 (1),Delhi Transport Corporation
+10220584,326 (1),Delhi Transport Corporation
+10220585,326 (1),Delhi Transport Corporation
+10220586,335 (1),Delhi Transport Corporation
+10319678,479A: Wazirpur Depot -> Badarpur Border,Unknown Operator
+10330544,F-403A: Badarpur Border -> Nehru Place,Unknown Operator
+10330545,F-253A: Seelampur Metro -> Mayur Vihar Phase 3,Unknown Operator
+10330546,F-253A: Mayur Vihar Phase 3 -> Seelampur Metro,Unknown Operator
+10335827,610: RK Puram Sector 1 -> Wazirpur Depot,Unknown Operator
+10335828,610: Wazirpur Depot -> RK Puram Sector 1,Unknown Operator
+10477215,166: Nizamuddin Railway Station -> ?,Delhi Transport Corporation
+10477216,166: ? -> Nizamuddin Railway Station,Delhi Transport Corporation
+10485301,539A: Najafgarh -> Ambedkar Nagar Terminal,Unknown Operator
+10485302,539A: Ambedkar Nagar Terminal -> Najafgarh,Unknown Operator
+10485303,539: Mehrauli Terminal ->,Unknown Operator
+10488424,411: Hamdard Nagar ->,Unknown Operator
+10488425,445A: Hamdard Nagar Terminal -> New Delhi Railway Station,Unknown Operator
+10533277,460: Minto Road Terminal -> Badarpur Border,Unknown Operator
+10541669,ML-81: Lado Sarai Terminal -> Modi Mill,Unknown Operator
+10541670,ML-58: Lado Sarai Terminal -> Bhati Mines,Unknown Operator
+10620378,588: Uttam Nagar ->,Delhi Transport Corporation
+10662625,392: Noida Sector 62 -> Dhaula Kuan,Unknown Operator
+10740650,306: Kalyanpuri -> Nehru Place,Unknown Operator
+10740651,306: Nehru Place -> Kalyanpuri,Unknown Operator
+10766213,347: Noida Sector 34/51 -> Kashmere Gate,Unknown Operator
+10766214,347: Kashmere Gate -> Noida Sector 34/51,Unknown Operator
+10790072,740B: Bindapur Terminal -> ?,Unknown Operator
+10803127,118: Mori Gate,Unknown Operator
+10803128,957: Rohini Sector 22,Unknown Operator
+10803129,505: Kamla Market -> Mehrauli,Delhi Transport Corporation
+10803130,715: Mehrauli -> Dwarka Sector 2 Bus Depot,Delhi Transport Corporation
+10813295,ML-58: Bhati Mines -> Lado Sarai Terminal,Unknown Operator
+11232098,623: Vasant Vihar CPWD -> Shahdara Terminal,"Delhi Transport Corporation, Delhi Transit"
+13153086,307: Kamla Market -> Trilokpuri 27 Block,Unknown Operator
+13153087,307: Trilokpuri 27 Block -> Kamla Market,Unknown Operator
+13199963,148,Unknown Operator
+13199964,148: Old Delhi Railway Station,Unknown Operator
+13199965,500: Saket -> New Delhi Railway Station Gate #2,Unknown Operator
+13219831,906: Kashmere Gate ISBT -> West Enclave Terminal,Delhi Transport Corporation
+13219832,906: West Enclave Terminal -> Kashmere Gate ISBT,Delhi Transport Corporation
+13219833,905A: ISBT Nityanand Marg,Delhi Transport Corporation
+13219834,805A: Kashmere Gate ISBT,Delhi Transport Corporation
+13219835,721: Manglapuri Terminal -> Kashmere Gate ISBT,Delhi Transport Corporation
+13219836,218: Babarpur Extension,Unknown Operator
+13219837,208: Harsh Vihar,Unknown Operator
+13219838,207: Dhaula Kuan -> Bhajanpura,Unknown Operator
+13219839,199: Old Delhi Railway Station,Unknown Operator
+13219840,197: Old Delhi Railway Station,Unknown Operator
+13219841,194: Old Delhi Railway Station,Unknown Operator
+13219842,144: Old Delhi Railway Station,Unknown Operator
+13219843,142: Old Delhi Railway Station,Unknown Operator
+13219844,141: Old Delhi Railway Station,Unknown Operator
+13219845,137: Old Delhi Railway Station,Unknown Operator
+13219846,131: Narela,Unknown Operator
+13219847,128: Mori Gate,Unknown Operator
+13219848,125EXT: Anand Vihar ISBT,Unknown Operator
+13219849,109: Old Delhi Railway Station,Unknown Operator
+13219850,102: Old Delhi Railway Station,Unknown Operator
+13310511,Unnamed Route,Unknown Operator
+13373549,Unnamed Route,Unknown Operator
+13373550,Unnamed Route,Unknown Operator
+13382679,Unnamed Route,Unknown Operator
+13382680,Unnamed Route,Unknown Operator
+13388413,281: New Seemapuri -> Kendriya Terminal,Unknown Operator
+13388414,281: Kendriya Terminal -> New Seemapuri,Unknown Operator
+13391955,Unnamed Route,Unknown Operator
+13394582,349: Mayur Vihar Phase 2 -> Shivaji Stadium,Unknown Operator
+13394583,349: Shivaji Stadium -> Mayur Vihar Phase 3,Unknown Operator
+13394584,282,Unknown Operator
+13394585,706A,Unknown Operator
+13796247,307A: New Delhi Railway Station Gate #1,Unknown Operator
+13796248,88: Jai Mata Market Tri Nagar Terminal -> Anand Vihar ISBT,Unknown Operator
+13863814,MC-137D: Shastri Park Metro Station -> Mayur Vihar Phase 3,Unknown Operator
+13863815,MC-137U: Mayur Vihar Phase 3 -> Shastri Park Metro Station,Unknown Operator
+13873912,993: West Enclave/Sansad Vihar Terminal,Unknown Operator
+13887643,307A: New Delhi Railway Station Gate #1 -> ?,Unknown Operator
+13989320,39,Unknown Operator
+13989321,39,Unknown Operator
+14105563,Gurgaon → Karol Bagh,Delhi Transport Corporation
+14162548,88: Anand Vihar ISBT -> Jai Mata Market Tri Nagar Terminal,Unknown Operator
+14191706,890: Hastsal Village LIG Flats,Delhi Transport Corporation
+14191707,890: Kendriya Terminal,Delhi Transport Corporation
+14206511,GL-23: Kashmere Gate ISBT -> Anand Vihar ISBT,Unknown Operator
+15089771,Unnamed Route,Unknown Operator
+15089772,Unnamed Route,Unknown Operator
+15347106,861: Jahangirpuri E-Block -> Tilak Nagar,Unknown Operator
+15347237,356: Mayur Vihar Phase 3 -> Mehrauli Terminal,Unknown Operator
+15347238,356: Mehrauli Terminal -> Mayur Vihar Phase 3,Unknown Operator
+15631422,OC Bus 53: Irvine - Anaheim,Orange County Transportation Authority
+15674038,ML-96S: Majlis Park Metro Station,Unknown Operator
+15674039,129: Old Delhi Railway Station,Unknown Operator
+15674040,139: Bhalaswa JJ Colony,Unknown Operator
+15677592,352: Wazirpur JJ Colony,Unknown Operator
+15704977,ML-96U: Ramdev Chowk Narela -> Azadpur Terminal,Unknown Operator
+15882128,112: Azadpur Terminal,Unknown Operator
+15882129,103: Old Delhi Railway Station,Unknown Operator
+16114462,103,Unknown Operator
+17059061,EXP4: IGI Airport -> Kashmere Gate,Unknown Operator
+17497382,F-826-A: Bawana → Rithala,Unknown Operator
+17497383,F-826-A: Rithala → Bawana,Unknown Operator
+17712631,OC Bus 55: Newport Beach - Santa Ana,Orange County Transportation Authority
+18130139,207: Bhajanpura -> Dhaula Kuan,Unknown Operator
+18303500,T - Turlock Commuter,Merced Transit Authority
