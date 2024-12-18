@@ -14,6 +14,7 @@ const StaffCard = ({
   onStaffAdded,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
   if (isLoading)
     return (
       <div className="w-full p-4 text-center">
@@ -89,16 +90,7 @@ const StaffCard = ({
                 >
                   Status
                 </th>
-                <th
-                  className={
-                    "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
-                    (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
-                  }
-                >
-                  Email
-                </th>
+
                 <th
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
@@ -117,6 +109,36 @@ const StaffCard = ({
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
+                  Start Shift
+                </th>
+                <th
+                  className={
+                    "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                    (color === "light"
+                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                  }
+                >
+                  End Shift
+                </th>
+                <th
+                  className={
+                    "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                    (color === "light"
+                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                  }
+                >
+                  Last Assigned Shift
+                </th>
+                <th
+                  className={
+                    "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
+                    (color === "light"
+                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                  }
+                >
                   Contact Number
                 </th>
                 <th
@@ -126,7 +148,9 @@ const StaffCard = ({
                       ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
-                ></th>
+                >
+                  ACTIONS
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -149,17 +173,7 @@ const StaffCard = ({
                   <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                     {s.status}
                   </td>
-                  <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                    <span
-                      className={`px-2 py-1 rounded ${
-                        s.status === "AVAILABLE"
-                          ? "bg-green-200 text-green-800"
-                          : "bg-yellow-200 text-yellow-800"
-                      }`}
-                    >
-                      {s.email}
-                    </span>
-                  </td>
+
                   <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                     <span
                       className={`px-2 py-1 rounded ${
@@ -172,16 +186,44 @@ const StaffCard = ({
                     </span>
                   </td>
                   <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                    <span
+                      className={`px-2 py-1 rounded ${
+                        s.status === "AVAILABLE"
+                          ? "bg-green-200 text-green-800"
+                          : "bg-yellow-200 text-yellow-800"
+                      }`}
+                    >
+                      {s.startShift}
+                    </span>
+                  </td>
+                  <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                    <span
+                      className={`px-2 py-1 rounded ${
+                        s.status === "AVAILABLE"
+                          ? "bg-green-200 text-green-800"
+                          : "bg-yellow-200 text-yellow-800"
+                      }`}
+                    >
+                      {s.endShift}
+                    </span>
+                  </td>
+                  <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                    <span
+                      className={`px-2 py-1 rounded ${
+                        s.status === "AVAILABLE"
+                          ? "bg-green-200 text-green-800"
+                          : "bg-yellow-200 text-yellow-800"
+                      }`}
+                    >
+                      {s.lastAssignedShift}
+                    </span>
+                  </td>
+                  <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                     <div className="flex items-center">
-                      <span className="mr-2">{s.contactNumber}</span>
-                      <div className="relative w-full">
-                        <div className="overflow-hidden h-2 text-xs flex rounded bg-blue-200">
-                          <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"></div>
-                        </div>
-                      </div>
+                      <span className="">{s.contactNumber}</span>
                     </div>
                   </td>
-                  <td className="border-t-0 absolute inset-0 px-6 border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+                  <td className="border-t-0 px-6 border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
                     <StaffDropDown
                       assignedBusId={s.assignedBusId}
                       staffId={s._id}

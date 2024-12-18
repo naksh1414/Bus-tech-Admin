@@ -111,7 +111,7 @@ export default function Sidebar() {
                 </Link>
               </li>
 
-              <li className="items-center">
+              {/* <li className="items-center">
                 <Link href="/admin/settings">
                   <p
                     href="#pablo"
@@ -133,7 +133,7 @@ export default function Sidebar() {
                     Settings
                   </p>
                 </Link>
-              </li>
+              </li> */}
 
               <li className="items-center">
                 <Link href="/admin/bus">
@@ -183,7 +183,7 @@ export default function Sidebar() {
                 </Link>
               </li>
 
-              <li className="items-center">
+              {/* <li className="items-center">
                 <Link href="/admin/tables">
                   <p
                     href="#pablo"
@@ -205,7 +205,7 @@ export default function Sidebar() {
                     Users
                   </p>
                 </Link>
-              </li>
+              </li> */}
 
               <li className="items-center">
                 <Link href="/admin/staff">
